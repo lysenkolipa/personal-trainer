@@ -1,0 +1,51 @@
+.title--without--btn {
+  padding-top: 47px;
+
+  &--text {
+    padding: 40px 0 40px 0;
+    margin-bottom:35px;
+  }
+}
+
+
+.personal_trainer--list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left:0;
+  padding: 0 50px;
+
+  &:first-child {
+    margin-left: 150px;
+  }
+}
+
+
+.trainer {
+ width: 350px;
+ height: auto;
+ margin: 60px;
+
+  &__img {
+    width: 350px;
+    height: 235px;
+  }
+
+  &__header {
+    padding-left: 100px;
+  }
+
+  &__text {
+    width: 350px;
+    height: auto;
+    text-align: center;
+  }
+
+  &__contact {
+      margin-right: 20px;
+      text-decoration: none;
+      color: black;
+      font-family: "Arial";
+  }
+
+}

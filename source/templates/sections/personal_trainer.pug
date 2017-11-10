@@ -1,0 +1,36 @@
+section.personal_trainer
+    .container
+        .title.title--without--btn
+            h1.title__header Your Personal Trainers
+            .title__header--text Helping you hit your training goals, every day!
+
+        ul.personal_trainer--list
+            li.trainer
+                img.trainer__img(src="../images/trainer1.jpg" alt="trainer1")
+                h2.trainer__header Tamara
+                .trainer__text Tamara has 1 year of experience training, focused on strength and general fitness rather than competition.
+                .trainer__contact
+                    -var social_icons = ['facebook-official', 'linkedin'];
+                    each item in social_icons
+                        a.nav__social
+                            i(class="fa fa-" + item aria-hidden='true')
+
+            li.trainer
+                img.trainer__img(src="../images/trainer2.jpg" alt="trainer2")
+                h2.trainer__header Ivan
+                .trainer__text Weightlifting champion of Victoria in 2008, Ivan knows how to put in the hard yards. He's been a trainer for 7 years, and has helped people of all ages and abilities learn to be fit, strong and healthy.
+                .trainer__contact
+                    -var social_icons = ['facebook-official', 'linkedin'];
+                    each item in social_icons
+                        a.nav__social
+                            i(class="fa fa-" + item aria-hidden='true')
+
+            li.trainer
+                img.trainer__img(src="../images/trainer3.jpg" alt="trainer3")
+                h2.trainer__header Natasha
+                .trainer__text  Natasha knows how to put in the hard yards. She's been a trainer for 7 years, and has helped people of all ages and abilities learn to be fit, strong and healthy.
+                .trainer__contact
+                    -var social_icons = ['facebook-official', 'linkedin'];
+                    each item in social_icons
+                        a.nav__social
+                            i(class="fa fa-" + item aria-hidden='true')
