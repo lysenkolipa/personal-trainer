@@ -1,13 +1,17 @@
 
 .container__footer-top {
   background: orangered;
- text-align: center;
 
 }
 
-.container__footer-bottom {
-  background: black;
+.title--plan {
+  margin:0;
+}
+
+.container__buttom {
+  background-color: #385461;
   margin: 0;
   display: flex;
   justify-content: space-around;
+  padding: 30px 0;
 }
