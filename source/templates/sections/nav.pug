@@ -1,0 +1,14 @@
+nav.nav
+    .container
+        .logo: img.logo-img(src="images/logo.png" alt="logo")
+
+        .container__nav
+            -var menu = ['ABOUT', 'TRAINING PLANS', 'CONTACTS'];
+            each item in menu
+                a.nav__link(href="#")=item
+
+        .container__nav--social
+            -var social_icons = ['facebook-official', 'twitter', 'google-plus', 'linkedin'];
+            each item in social_icons
+                a.nav__social
+                    i(class="fa fa-" + item aria-hidden='true')
