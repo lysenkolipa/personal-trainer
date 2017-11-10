@@ -1,0 +1,83 @@
+.plan {
+  display: block;
+
+
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 20px auto 20px;
+  }
+}
+
+.title--plan {
+  margin-top:0;
+  padding-top: 35px;
+  padding-bottom:35px;
+  background: orangered;
+  text-align: center;
+  color:#eeeeee;
+}
+
+.title__plan--text {
+  text-align: center;
+  width:700px;
+  margin-left: 30%;
+  margin-bottom: 50px;
+}
+
+.clip {
+  width: 360px;
+  background: #fff8f5;
+  margin-left: 30px;
+  text-align: center;
+  line-height:35px;
+
+}
+.plan__period {
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.plan__price {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: orangered;
+}
+
+.plan__btn {
+  height: 47px;
+  width: 137px;
+  border: 3px solid orangered;
+  border-radius: 3px;
+  text-decoration: none;
+  color: orangered;
+  display: flex;
+  justify-content: center;
+  padding: 15px 22px 7px;
+  text-transform: uppercase;
+  font-size: 14.5px;
+  margin-top:40px;
+  margin-bottom: 92px;
+  line-height:normal;
+  margin-left: 30%;
+
+  &:hover {
+    background: lighten(orangered, 48%);
+  }
+}
+
+.clip__contain {
+  padding-left: 0;
+}
+
+hr {
+  width:224px;
+  background: white;
+  height: 5px;
+  border: none;
+  border: 3px;
+}
