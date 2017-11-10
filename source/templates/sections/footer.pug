@@ -1,0 +1,10 @@
+footer.footer
+    .container__footer-top
+        h1.title--footer Reach your fitness & health goals, FAST!
+    .container__footer-bottom
+        .logo: img.logo-small(src="images/logo-small.png" alt="logo-small")
+        .container__footer--social
+            -var social_icons = ['twitter', 'instagram', 'facebook'];
+            each item in social_icons
+                a.nav__social
+                    i(class="fa fa-" + item aria-hidden='true')
