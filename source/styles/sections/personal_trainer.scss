@@ -24,7 +24,7 @@
 .trainer {
  width: 350px;
  height: auto;
- margin: 60px;
+ margin: 80px;
 
   &__img {
     width: 350px;
@@ -42,10 +42,26 @@
   }
 
   &__contact {
-      margin-right: 20px;
-      text-decoration: none;
-      color: black;
-      font-family: "Arial";
+    margin-top: 20px;
+    text-align: center;
   }
 
+  &__social {
+
+    margin-right: 20px;
+    text-decoration: none;
+    color: orangered;
+  }
+
+}
+.container__big-img {
+  background-image: url(https://dktovmf07nr2a.cloudfront.net/theme_assets/24D7322E-43E7-40FE-BD86-0A80C12AC93C/assets/personal-trainer/squat-press-e8dea318d4.jpg);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  box-sizing: border-box;
+  display: block;
+  height: 600px;
+  line-height: 22.4px;
+  position: relative;
 }
