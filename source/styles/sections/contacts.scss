@@ -1,0 +1,43 @@
+.contacts {
+
+  &__title {
+    padding-top: 47px;
+    text-align: center;
+    width: 100%;
+  }
+
+  &--list {
+    text-align: center;
+    line-height:35px;
+    margin: 20px 0;
+    padding-left: 0;
+  }
+
+    &__social {
+      color: orangered;
+      font-size: 50px;
+    }
+
+  &--tel{
+    text-align: center;
+    margin: 20px 0 20px 10px;
+    padding-left: 0;
+  }
+
+  &--list--social {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+
+  &__icon {
+    color: orangered;
+    font-size: 20px;
+  }
+
+}
+.title__contacts--text {
+  padding: 30px 0 30px 0;
+  margin-bottom:0;
+}
+
